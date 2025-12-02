@@ -4,3 +4,6 @@
 .dvc/cache
 /models
 /key.json
+/mlruns
+/mlartifacts
+

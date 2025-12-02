@@ -149,7 +149,7 @@ def main(args):
         logging.info("=" * 50)
 
         fold_histories = []
-
+        mlflow.end_run() 
         # K-fold Cross Validation model evaluation
         for fold, (train_ids, val_ids) in enumerate(kfold.split(dataset)):
             # Print current fold
