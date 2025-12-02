@@ -6,4 +6,5 @@
 /key.json
 /mlruns
 /mlartifacts
+/__pycache__/
 
